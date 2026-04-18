@@ -1,9 +1,17 @@
-# Latent-RPC
+# TokenWire
 
+High-performance binary token streaming for local LLMs via client-side reconstruction.
 
-## Research Abstract
-Latent-RPC is an experimental neural payload compression protocol designed to replace standard JSON/SSE streaming for Local LLMs. By transmitting ZigZag-encoded token deltas via Protocol Buffers and offloading semantic inflation to the client, this architecture drastically reduces network I/O and payload bandwidth. It provides a highly efficient, binary-first transport layer specifically optimized for real-time inference and edge AI deployments.
+## The Core Idea
+Standard LLM streaming relies on heavy JSON/SSE envelopes that inflate network I/O. **TokenWire** bypasses this by streaming raw 32-bit token indices directly over WebSockets, performing instantaneous O(1) string reconstruction in the client's browser (or CLI) using a pre-mounted binary dictionary.
 
+## Features
+- **Binary Transport**: Massive reduction in payload size compared to JSON.
+- **Client-Side Inflation**: Offloads text decoding to the edge.
+- **Micro-Benchmark Suite**: Side-by-side comparison of TokenWire vs. Baseline JSON streaming.
+- **V8 CLI Runner**: Headless benchmarking tool for accurate, DOM-less throughput measurement.
 
-## 🤝 Support & Feedback
-This is an independent research project built by a solo developer. If you find this approach to AI transport layers interesting or useful, a ⭐ is hugely appreciated and helps keep the momentum going. I am always learning and open to feedback, ideas, or discussions in the issues!
+## Quickstart
+1. **Backend**: `cd backend && pip install -r requirements.txt && uvicorn app.main:app --reload`
+2. **Frontend**: `cd frontend && npm install && npm run dev`
+3. **CLI Benchmark**: `cd scripts/node_benchmark && npm install && npx tsx cli.ts --dataset sample_1`

@@ -1,0 +1,15 @@
+
+# python related gitignore
+.env
+.pytest_cache
+.venv
+__pycache__
+.env.example
+
+# frontend related
+node_modules
+dist
+
+# project specific
+.docs
+reports/

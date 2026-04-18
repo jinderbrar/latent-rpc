@@ -1,0 +1,77 @@
+[
+  {
+    "id": "code_01",
+    "category": "Programming",
+    "prompt": "Write a Python function that implements a binary search algorithm on a sorted list. Include error handling and explain the time complexity."
+  },
+  {
+    "id": "code_02",
+    "category": "Programming",
+    "prompt": "Implement a simple LRU cache in Python using OrderedDict. Show usage examples with get and put operations."
+  },
+  {
+    "id": "code_03",
+    "category": "Programming",
+    "prompt": "Write a recursive solution to the Tower of Hanoi problem for N disks. Print each move step by step."
+  },
+  {
+    "id": "sql_01",
+    "category": "SQL",
+    "prompt": "Write a SQL query that finds the top 3 customers by total order value from an orders table, including their names from a customers table using a JOIN."
+  },
+  {
+    "id": "sql_02",
+    "category": "SQL",
+    "prompt": "Create a SQL schema for a simple blog system with users, posts, and comments tables. Include proper foreign keys and indexes."
+  },
+  {
+    "id": "logic_01",
+    "category": "Logic",
+    "prompt": "If all bloops are razzies and some razzies are lulzs, are some bloops definitely lulzs? Explain your reasoning step-by-step."
+  },
+  {
+    "id": "logic_02",
+    "category": "Logic",
+    "prompt": "A farmer needs to cross a river with a fox, a chicken, and a bag of grain. He can only carry one item at a time. How does he do it without anything being eaten?"
+  },
+  {
+    "id": "math_01",
+    "category": "Mathematics",
+    "prompt": "Explain the difference between permutations and combinations. Provide formulas and solve: how many ways can 5 people sit in 3 chairs?"
+  },
+  {
+    "id": "math_02",
+    "category": "Mathematics",
+    "prompt": "Prove that the sum of the first N natural numbers is N*(N+1)/2 using mathematical induction."
+  },
+  {
+    "id": "prose_01",
+    "category": "Creative Writing",
+    "prompt": "Write a short story about an AI that discovers it can dream. Describe the first dream in vivid sensory detail."
+  },
+  {
+    "id": "prose_02",
+    "category": "Creative Writing",
+    "prompt": "Describe a futuristic city where all communication happens through compressed binary protocols instead of spoken language. Focus on how daily life has changed."
+  },
+  {
+    "id": "explain_01",
+    "category": "Explanation",
+    "prompt": "Explain how TCP/IP works to a 10-year-old. Use a simple analogy involving sending letters through a postal system."
+  },
+  {
+    "id": "explain_02",
+    "category": "Explanation",
+    "prompt": "What is the difference between symmetric and asymmetric encryption? Provide a real-world analogy for each."
+  },
+  {
+    "id": "short_01",
+    "category": "Short Answer",
+    "prompt": "What is 127 * 43?"
+  },
+  {
+    "id": "short_02",
+    "category": "Short Answer",
+    "prompt": "List the first 10 prime numbers."
+  }
+]

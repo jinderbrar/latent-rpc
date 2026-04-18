@@ -1,0 +1,12 @@
+[
+  {
+    "id": "code_01",
+    "category": "Programming",
+    "prompt": "Write a Python function that implements a binary search algorithm on a sorted list. Include error handling and explain the time complexity."
+  },
+  {
+    "id": "short_01",
+    "category": "Short Answer",
+    "prompt": "List the first 10 prime numbers."
+  }
+]
